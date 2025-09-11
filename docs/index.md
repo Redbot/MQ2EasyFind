@@ -1,6 +1,13 @@
 ---
 tags:
   - plugin
+resource_link: "https://www.redguides.com/community/resources/mq2easyfind.119/"
+support_link: "https://www.redguides.com/community/threads/mq2easyfind.64009/"
+repository: "https://github.com/brainiac/MQ2EasyFind"
+config: "EasyFind.yaml, ZoneConnections.yaml"
+authors: "eqmule, brainiac, Knightly, Kazadoom_32"
+tagline: "EasyFind is a plugin that helps get you around EverQuest"
+acknowledgements: "MQ2Nav"
 ---
 
 # MQ2EasyFind
@@ -22,35 +29,35 @@ You can interact with this plugin in the following ways:
 
   - The /travelto command - travel to another zone
 
-You can also access settings for EasyFind through [/mqsettings](../../../reference/commands/mqsettings.md).
+You can also access settings for EasyFind through [/mqsettings](../macroquest/reference/commands/mqsettings.md).
 
 ## Commands
 
 <a href="cmd-easyfind/">
 {% 
-  include-markdown "plugins/community-plugins/mq2easyfind/cmd-easyfind.md" 
+  include-markdown "projects/mq2easyfind/cmd-easyfind.md" 
   start="<!--cmd-syntax-start-->" 
   end="<!--cmd-syntax-end-->" 
 %}
 </a>
-:    {% include-markdown "plugins/community-plugins/mq2easyfind/cmd-easyfind.md" 
+:    {% include-markdown "projects/mq2easyfind/cmd-easyfind.md" 
         start="<!--cmd-desc-start-->" 
         end="<!--cmd-desc-end-->" 
         trailing-newlines=false 
-     %} {{ readMore('plugins/community-plugins/mq2easyfind/cmd-easyfind.md') }}
+     %} {{ readMore('projects/mq2easyfind/cmd-easyfind.md') }}
 
 <a href="cmd-travelto/">
 {% 
-  include-markdown "plugins/community-plugins/mq2easyfind/cmd-travelto.md" 
+  include-markdown "projects/mq2easyfind/cmd-travelto.md" 
   start="<!--cmd-syntax-start-->" 
   end="<!--cmd-syntax-end-->" 
 %}
 </a>
-:    {% include-markdown "plugins/community-plugins/mq2easyfind/cmd-travelto.md" 
+:    {% include-markdown "projects/mq2easyfind/cmd-travelto.md" 
         start="<!--cmd-desc-start-->" 
         end="<!--cmd-desc-end-->" 
         trailing-newlines=false 
-     %} {{ readMore('plugins/community-plugins/mq2easyfind/cmd-travelto.md') }}
+     %} {{ readMore('projects/mq2easyfind/cmd-travelto.md') }}
 
 
 ### EasyFind.yaml
@@ -164,7 +171,7 @@ FindLocations:
 16. If multiple entrances to the same zone exist, list the unique identifier
 17. Remove an unwanted connection from the Zone Guide
 
-Switch names and ID's can be found with [/doors](../../../reference/commands/doors.md)
+Switch names and ID's can be found with [/doors](../macroquest/reference/commands/doors.md)
 
 ### ZoneGuide.yaml
 
@@ -197,10 +204,11 @@ Sometimes existing locations in the find window do not have enough information (
 
 The TLO [EasyFind](tlo-easyfind.md) includes the following members
 
-{% include-markdown "plugins/community-plugins/mq2easyfind/datatype-easyfind.md" start="<!--dt-members-start-->" end="<!--dt-members-end-->" %}
-{% include-markdown "plugins/community-plugins/mq2easyfind/datatype-easyfind.md" start="<!--dt-linkrefs-start-->" end="<!--dt-linkrefs-end-->" %}
+{% include-markdown "projects/mq2easyfind/datatype-easyfind.md" start="<!--dt-members-start-->" end="<!--dt-members-end-->" %}
+{% include-markdown "projects/mq2easyfind/datatype-easyfind.md" start="<!--dt-linkrefs-start-->" end="<!--dt-linkrefs-end-->" %}
 
 ## See also
 
 - [Nav](../mq2nav/index.md)
 - [MQ2EasyFind Preview Vid](https://www.youtube.com/watch?v=qw_eI8jmfpo) by Sic.
+- [Zone short names](../everquest/general/zone-short-names.md)

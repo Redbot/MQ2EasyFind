@@ -19,11 +19,11 @@ Provides information about EasyFind plugin status and active travel operations
 ## Associated DataTypes
 <!--tlo-datatypes-start-->
 ## [`EasyFind`](datatype-easyfind.md)
-{% include-markdown "plugins/community-plugins/mq2easyfind/datatype-easyfind.md" start="<!--dt-desc-start-->" end="<!--dt-desc-end-->" trailing-newlines=false %} {{ readMore('plugins/community-plugins/mq2easyfind/datatype-easyfind.md') }}
+{% include-markdown "projects/mq2easyfind/datatype-easyfind.md" start="<!--dt-desc-start-->" end="<!--dt-desc-end-->" trailing-newlines=false %} {{ readMore('projects/mq2easyfind/datatype-easyfind.md') }}
 
 <h3>Members</h3>
-{% include-markdown "plugins/community-plugins/mq2easyfind/datatype-easyfind.md" start="<!--dt-members-start-->" end="<!--dt-members-end-->" %}
-{% include-markdown "plugins/community-plugins/mq2easyfind/datatype-easyfind.md" start="<!--dt-linkrefs-start-->" end="<!--dt-linkrefs-end-->" %}
+{% include-markdown "projects/mq2easyfind/datatype-easyfind.md" start="<!--dt-members-start-->" end="<!--dt-members-end-->" %}
+{% include-markdown "projects/mq2easyfind/datatype-easyfind.md" start="<!--dt-linkrefs-start-->" end="<!--dt-linkrefs-end-->" %}
 <!--tlo-datatypes-end-->
 
 <!--tlo-linkrefs-start-->

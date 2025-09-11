@@ -16,6 +16,6 @@ Provides status information about the EasyFind plugin and active travel operatio
 <!--dt-members-end-->
 
 <!--dt-linkrefs-start-->
-[bool]: ../../../reference/data-types/datatype-bool.md
+[bool]: ../macroquest/reference/data-types/datatype-bool.md
 [easyfind]: datatype-easyfind.md
 <!--dt-linkrefs-end-->
