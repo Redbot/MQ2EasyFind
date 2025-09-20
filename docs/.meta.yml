@@ -1,0 +1,5 @@
+docs_repository: "https://github.com/Redbot/MQ2EasyFind"
+docs_edit_uri: "edit/docs-dir/"
+docs_path_transform:
+  from: "projects/mq2easyfind/"
+  to: "docs/"
