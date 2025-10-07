@@ -1,0 +1,5 @@
+docs_repository: "https://github.com/brainiac/MQ2EasyFind"
+docs_edit_uri: "edit/master/"
+docs_path_transform:
+  from: "plugins/community-plugins/mq2easyfind/"
+  to: "docs/"
