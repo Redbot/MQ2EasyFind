@@ -18,7 +18,7 @@ tags:
 ## Description
 
 <!--cmd-desc-start-->
-Find a route to the specified `[zonename]` (short or long name) and then follow it.
+Find a route to the specified `[zonename]` ([short](../everquest/general/zone-short-names.md) or long name) and then follow it.
 <!--cmd-desc-end-->
 
 ## Options
@@ -27,7 +27,7 @@ Find a route to the specified `[zonename]` (short or long name) and then follow 
 :   Display help text
 
 **`[zonename]`**
-:   Find a route to the specified `[zonename]` (short or long name) and then follow it.
+:   Find a route to the specified `[zonename]` ([short](../everquest/general/zone-short-names.md) or long name) and then follow it.
 
 **`[zonename] @ [easyfind command]`**
 :   Upon arrival in `[zonename]`, execute `[easyfind command]`  
