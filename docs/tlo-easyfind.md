@@ -10,9 +10,9 @@ Provides information about EasyFind plugin status and active travel operations
 
 ## Forms
 <!--tlo-forms-start-->
-### {{ renderMember(type='EasyFind', name='EasyFind') }}
-
-:   Returns the EasyFind TLO with access to plugin status information.
+/// member | EasyFind EasyFind
+Returns the EasyFind TLO with access to plugin status information.
+///
 
 <!--tlo-forms-end-->
 

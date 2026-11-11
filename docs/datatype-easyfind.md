@@ -10,9 +10,9 @@ Provides status information about the EasyFind plugin and active travel operatio
 
 ## Members
 <!--dt-members-start-->
-### {{ renderMember(type='bool', name='Active') }}
-
-:   Returns `true` if a `/travelto` is currently active, `false` otherwise
+/// member | bool Active
+Returns `true` if a `/travelto` is currently active, `false` otherwise
+///
 <!--dt-members-end-->
 
 <!--dt-linkrefs-start-->
